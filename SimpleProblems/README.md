@@ -1,7 +1,5 @@
 # ProblemPractices
-Common problem solving using Java ,C , c#. This is a root dir.
+Common problem that we learn in C. We will do the same in JAVA. 
 
-#Purpose
-Complex Problem solving
-Daily work Problems
-Some Old ACM problem 
+# Purpose 
+To help people to start small problems
