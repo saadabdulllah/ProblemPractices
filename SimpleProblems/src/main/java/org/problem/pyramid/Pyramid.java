@@ -6,17 +6,18 @@ package org.problem.pyramid;
 public class Pyramid {
 
     public static void main(String[] args) {
-
+        pyramidTypeOne();
     }
 
-    public static void pyramidTypeOne(){
+    public static void pyramidTypeOne() {
 
         System.out.println("This is pyramid problem 1 ");
 
-        for(int row = 1; row<=4; row++){
-
+        for (int row = 1; row <= 4; row++) {
+            for (int col = 1; col <= row; col++) {
+                System.out.print(col);
+            }
+            System.out.println();
         }
-        System.out.println();
-
     }
 }
