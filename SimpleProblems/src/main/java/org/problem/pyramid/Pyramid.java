@@ -6,7 +6,7 @@ package org.problem.pyramid;
 public class Pyramid {
 
     public static void main(String[] args) {
-        pyramidTypeOne();
+        pyramidTypeTwo();
     }
 
     public static void pyramidTypeOne() {
@@ -14,6 +14,21 @@ public class Pyramid {
         System.out.println("This is pyramid problem 1 ");
 
         for (int row = 1; row <= 4; row++) {
+            for (int col = 1; col <= row; col++) {
+                System.out.print(col);
+            }
+            System.out.println();
+        }
+    }
+
+    public static void pyramidTypeTwo() {
+
+        System.out.println("This is pyramid problem 1 ");
+
+        for (int row = 1; row <= 5; row++) {
+            for (int space = 1; space <= (5 - row); space++) {
+                System.out.print(" ");
+            }
             for (int col = 1; col <= row; col++) {
                 System.out.print(col);
             }

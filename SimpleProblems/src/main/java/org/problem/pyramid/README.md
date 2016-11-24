@@ -9,8 +9,8 @@ Print these in commandline
 
 # problem 2
     1
-   1 2
-  1 2 3
- 1 2 3 4
-1 2 3 4 5
+   12
+  123
+ 1234
+12345
 
