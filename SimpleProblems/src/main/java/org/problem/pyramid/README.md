@@ -12,7 +12,7 @@ Print these in commandline
    12
   123
  1234
-12345
+ 12345
 
 # Problem 3 : 
 
