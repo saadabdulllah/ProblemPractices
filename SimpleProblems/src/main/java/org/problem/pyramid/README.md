@@ -14,3 +14,11 @@ Print these in commandline
  1234
 12345
 
+# Problem 3 : 
+
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+
